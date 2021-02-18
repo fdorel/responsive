@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from "react-router";
 import './App.css';
 
 class App extends React.Component {
@@ -15,7 +16,7 @@ class App extends React.Component {
                             <div className="full">
                                 <div className="center-desk">
                                     <div className="logo">
-                                        <a href="index.html"><img src="images/logo.png" alt="#" /></a>
+                                        <Link to="index.html"><img src="images/logo.png" alt="#" /></Link>
                                     </div>
                                 </div>
                             </div>
@@ -23,10 +24,10 @@ class App extends React.Component {
                         <div className="col-xl-9 col-lg-9 col-md-9 col-sm-9">
                             
 														<ul className="top_icon">
-																<li className="button_login"> <a href="#">Login</a> </li>
-																<li> <a href="#about">Signup</a> </li>
+																<li className="button_login"><Link to="#">Login</Link></li>
+																<li> <Link to="#about">Signup</Link></li>
 																<li className="mean-last">
-																	<a href="#"><img src="images/search_icon.png" alt="#" /></a>
+																	<Link to="#"><img src="images/search_icon.png" alt="#" /></Link>
 																</li>
 														</ul>
                         </div>
@@ -44,11 +45,11 @@ class App extends React.Component {
                                 <div className="limit-box">
                                     <nav className="main-menu">
                                         <ul className="menu-area-main">
-                                            <li className="active"> <a href="#game">Game</a> </li>
-                                            <li> <a href="#software">Software</a> </li>
-                                            <li> <a href="#about">About</a></li>
-                                            <li> <a href="#testimonial">Testimonial</a></li>
-                                            <li> <a href="#contact">Contact</a></li>
+                                            <li className="active"> <Link to="#game">Game</Link> </li>
+                                            <li> <Link to="#software">Software</Link> </li>
+                                            <li> <Link to="#about">About</Link></li>
+                                            <li> <Link to="#testimonial">Testimonial</Link></li>
+                                            <li> <Link to="#contact">Contact</Link></li>
                                            
                                         </ul>
                                     </nav>
@@ -59,7 +60,7 @@ class App extends React.Component {
                                 <div className="text-bg">
                                     <h1>amazing 3d game</h1>
                                     <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</span>
-                                    <a href="#">download</a>
+                                    <Link to="#">download</Link>
                                 </div>
                             </div>
                              <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 ">
@@ -101,7 +102,7 @@ class App extends React.Component {
                             <div className="Games">
                                 <h3>Angry Birds</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et </p>
-                                <a href="#">Free Download</a>
+                                <Link to="#">Free Download</Link>
                             </div>
                         </div>
                     </div>
@@ -120,7 +121,7 @@ class App extends React.Component {
                             <div className="Games">
                                 <h3>Sanke</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et </p>
-                                <a href="#">Free Download</a>
+                                <Link to="#">Free Download</Link>
                             </div>
                         </div>
                     </div>
@@ -139,7 +140,7 @@ class App extends React.Component {
                             <div className="Games">
                                 <h3>Cricket</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et </p>
-                                <a href="#">Free Download</a>
+                                <Link to="#">Free Download</Link>
                             </div>
                         </div>
                     </div>
@@ -170,7 +171,7 @@ class App extends React.Component {
                  <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 border_right">
                      <div className="box_text">
                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborumLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
-                         <a href="#">Read more</a>
+                         <Link to="#">Read more</Link>
                      </div>
                  </div> 
             </div>
